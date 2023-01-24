@@ -1,76 +1,56 @@
 import React from "react";
 
-// import './App.css'
-import Logo from './assets/logo.png'
+import { Selected_Site_Context } from "./context_test";
 
 // Linked Sites
+import Landing_Page from "./Sites/Landing_Page";
 import About_Us_Page from "./Sites/About";
 import Methodology_Vision_Page from "./Sites/Methodology_Vision";
 import User_Login_Page from "./Sites/User_Login";
 
-function App() {
-  const [Selected_Site, set_Selected_Site] = React.useState("Landing Page");
-  console.log(Selected_Site)
 
+
+function App() {
+  const [Selected_Site, set_Selected_Site] = React.useState('Landing_Page');
+  
+  
+  let Site_to_render = Landing_Page
+
+  React.useEffect(() => {
+    // Code to execute when Selected_Site changes
+    console.log(Selected_Site);
+
+    switch (Selected_Site) {
+      case 'Landing_Page':
+        Site_to_render = Landing_Page;
+        console.log('Landing_Page');
+        break;
+      case 'About_Page':
+        Site_to_render = About_Us_Page;
+        console.log('About_Page');
+        break;
+      case 'Methodology_Vision_Page': 
+        Site_to_render = Methodology_Vision_Page;
+        console.log('Methology_Vision_Page');
+        break;
+      case 'User_Login_Page':
+        Site_to_render = User_Login_Page;
+        console.log('User_Login_Page');
+        break;
+      case 'Terminal_Demo_Page':
+        Site_to_render = <p>In developement</p>;
+        console.log('Terminal_Demo_Page');
+        break;
+      // default:
+      //   Site_to_render = Landing_Page;
+    }
+  }, [Selected_Site]); 
+  let L = 0
   return (
-    <div className="bg-white h-screen flex flex-col items-center justify-start m-10">
-      <div className="">
-        <img 
-          src={Logo} 
-          alt="Logo" 
-          className="w-1/2 md:w-1/2 lg:w-1/2 mx-auto mb-6 shadow-2xl shadow-violet-900"
-          // onClick={set_Selected_Site("Landing Page")}
-          />
-      </div>
-      <nav className="flex flex-row flex-wrap m-20">
-        <a href="#" 
-        className="RobotoCondensed
-          hover:underline 
-          mr-6 ml-6 
-          text-lg 
-          cursor-pointer 
-          text-indigo-700"
-        // onClick={set_Selected_Site("About Us")}
-        >
-          About Us
-        </a>
-        <a href="#" 
-        className="RobotoCondensed
-          hover:underline 
-          mr-6 ml-6 
-          text-lg 
-          cursor-pointer 
-          text-indigo-700"
-        // onClick={set_Selected_Site("Methodology Vision")}
-        >
-          Methodology/Vision
-        </a>
-        <a href="#" 
-        className="RobotoCondensed
-          hover:underline 
-          mr-6 ml-6 
-          text-lg 
-          cursor-pointer 
-          text-indigo-700"
-        // onClick={set_Selected_Site("User Login")}
-        >
-          User Login
-        </a>
-        <a href="#" 
-        className="RobotoCondensed
-          hover:underline 
-          mr-6 ml-6 
-          text-lg 
-          cursor-pointer 
-          text-indigo-700"
-        // onClick={set_Selected_Site("Terminal Demo")}
-        >
-          Terminal Demo
-        </a>
-      </nav>
-    </div>
+    <Selected_Site_Context.Provider value={{Selected_Site, set_Selected_Site}}>
+      <Site_to_render />
+    </Selected_Site_Context.Provider>
   );
 }
-
 
 export default App;

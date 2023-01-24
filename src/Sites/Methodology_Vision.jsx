@@ -1,13 +1,19 @@
 import React from 'react';
+import { Selected_Site_Context } from '../context_test';
+import Logo from '../assets/logo.png'
 
-const Methodology_Vision_Page = (props) => {
-  // Declare state variables and use the useState Hook
-  const [state, setState] = React.useState({ /* initial state */ });
+const Methodology_Vision_Page = () => {
+  const {Selected_Site, set_Selected_Site} = React.useContext(Selected_Site_Context)
 
   return (
     <div>
         <div className="">
-            <img src={Logo} alt="Logo" className="w-1/3 md:w-1/3 lg:w-1/3 mx-auto mb-6 shadow-2xl shadow-violet-900" />
+            <img 
+                src={Logo} 
+                alt="Logo" 
+                className="w-1/3 md:w-1/3 lg:w-1/3 mx-auto mb-6 shadow-2xl shadow-violet-900" 
+                onClick={() => set_Selected_Site("Landing Page")}
+                />
             <h1 className='RobotoCondensed'>Methology and Vision</h1>
         </div>
         <div>
