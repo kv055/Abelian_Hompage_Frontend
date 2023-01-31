@@ -6,41 +6,51 @@ const Methodology_Vision_Page = () => {
   const {Selected_Site, set_Selected_Site} = React.useContext(Selected_Site_Context)
 
   return (
-    <div>
-        <div className="">
+    <div className='h-screen flex flex-col items-center justify-start'>
+        {/* Header */}
+        <div className="bg-white">
             <img 
                 src={Logo} 
                 alt="Logo" 
-                className="w-1/3 md:w-1/3 lg:w-1/3 mx-auto mb-6 shadow-2xl shadow-violet-900" 
+                className="w-1/4 md:w-1/4 lg:w-1/6 mx-auto mb-6 shadow-2xl shadow-violet-900"
                 onClick={() => set_Selected_Site("Landing Page")}
-                />
-            <h1 className='RobotoCondensed'>Methology and Vision</h1>
+            />
+            <h1 className='RobotoCondensed text-center text-indigo-700 font-extrabold tracking-widest'>Methology and Vision</h1>
         </div>
-        <div>
-            <h3 className='RobotoCondensed'>The Process</h3>
-            <div>
-                <h5 className='RobotoCondensed'>Fundamental Analysis</h5>
-                <p className='RobotoCondensed'>
-
-                </p>
+        {/* Content */}
+        <div className='bg-violet-200 justify-start'>
+            <h3 className='RobotoCondensed text-center font-semibold tracking-widest'>Our Process</h3>
+            <div className='flex flex-row'>
+                <div className='mx-10'>
+                    <h5 className='RobotoCondensed'>Fundamental Analysis</h5>
+                    <p className='RobotoCondensed'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                <div className='mx-10'>
+                    <h5 className='RobotoCondensed'>Financial Modeleling</h5>
+                    <p className='RobotoCondensed'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                <div className='mx-10'>
+                    <h5 className='RobotoCondensed'>Strategy Developement with Backtesting</h5>
+                    <p className='RobotoCondensed'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                <div className='mx-10'>
+                    <h5 className='RobotoCondensed'>Paper Trading and Evaluation</h5>
+                    <p className='RobotoCondensed'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
             </div>
-            <div>
-                <h5 className='RobotoCondensed'>Financial Modeleling</h5>
-                <p className='RobotoCondensed'>
-
-                </p>
-            </div>
-            <div>
-                <h5 className='RobotoCondensed'>Strategy Developement with Backtesting</h5>
-                <p className='RobotoCondensed'>
-
-                </p>
-            </div>
-            <div>
-                <h5 className='RobotoCondensed'>Paper Trading and Evaluation</h5>
-                <p className='RobotoCondensed'>
-                    
-                </p>
+            <h3 className='RobotoCondensed text-center font-semibold tracking-widest'>Roadmap</h3>
+                <div className='flex flex-row mx-10'>
+                    <p className='RobotoCondensed'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
             </div>
         </div>
     </div>

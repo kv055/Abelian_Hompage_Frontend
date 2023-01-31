@@ -22,7 +22,10 @@ function Landing_Page() {
                     mr-6 ml-6 
                     text-lg 
                     cursor-pointer 
-                    text-indigo-700"
+                    text-indigo-700
+                    font-medium 
+                    tracking-widest
+                    "
                 onClick={() => set_Selected_Site("About_Page")}
                 >
                     About Us
@@ -33,7 +36,10 @@ function Landing_Page() {
                     mr-6 ml-6 
                     text-lg 
                     cursor-pointer 
-                    text-indigo-700"
+                    text-indigo-700
+                    font-medium 
+                    tracking-widest
+                    "
                 onClick={() => set_Selected_Site("Methodology_Vision_Page")}
                 >
                     Methodology/Vision
@@ -44,7 +50,10 @@ function Landing_Page() {
                     mr-6 ml-6 
                     text-lg 
                     cursor-pointer 
-                    text-indigo-700"
+                    text-indigo-700
+                    font-medium 
+                    tracking-widest
+                    "
                 onClick={() => set_Selected_Site("User_Login_Page")}
                 >
                     User Login
@@ -55,10 +64,13 @@ function Landing_Page() {
                     mr-6 ml-6 
                     text-lg 
                     cursor-pointer 
-                    text-indigo-700"
-                onClick={() => set_Selected_Site("Terminal_Demo_Page")}
+                    text-indigo-700
+                    font-medium 
+                    tracking-widest
+                    "
+                onClick={() => set_Selected_Site("Blog_Page")}
                 >
-                    Terminal Demo
+                    Blog
                 </a>
             </nav>
         </div>
