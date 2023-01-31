@@ -7,6 +7,7 @@ import Landing_Page from "./Sites/Landing_Page";
 import About_Us_Page from "./Sites/About";
 import Methodology_Vision_Page from "./Sites/Methodology_Vision";
 import User_Login_Page from "./Sites/User_Login";
+import Blog_Page from "./Sites/Blog";
 
 function App() {
   const [Selected_Site, set_Selected_Site] = React.useState('Landing_Page')
@@ -29,9 +30,9 @@ function App() {
         console.log('User_Login_Page');
         return User_Login_Page
         break;
-      case 'Terminal_Demo_Page':
+      case 'Blog_Page':
         console.log('Terminal_Demo_Page');
-        return <h1>In developement</h1>
+        return Blog_Page
         break;
       default:
         return Landing_Page
