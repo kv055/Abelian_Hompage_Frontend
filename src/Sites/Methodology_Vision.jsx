@@ -6,9 +6,9 @@ const Methodology_Vision_Page = () => {
   const {Selected_Site, set_Selected_Site} = React.useContext(Selected_Site_Context)
 
   return (
-    <div className='h-screen flex flex-col items-center justify-start'>
+    <div className='h-screen flex flex-col items-center justify-start px-10'>
         {/* Header */}
-        <div className="bg-white">
+        <div className="bg-white pt-1">
             <img 
                 src={Logo} 
                 alt="Logo" 

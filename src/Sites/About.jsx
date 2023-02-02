@@ -7,9 +7,9 @@ const About_Us_Page = () => {
     const {Selected_Site, set_Selected_Site} = React.useContext(Selected_Site_Context)
 
     return (
-        <div className='h-screen flex flex-col items-center justify-start'>
+        <div className='h-screen flex flex-col items-center justify-start px-10'>
             {/* Header */}
-            <div className="bg-white">
+            <div className="bg-white pt-1">
                 <img 
                     src={Logo} 
                     alt="Logo" 
@@ -60,6 +60,30 @@ const About_Us_Page = () => {
                     </div>
                     <div className='flex flex-col mx-10'>
                         <h5 className='RobotoCondensed text-center'>Fortino Gomez</h5>
+                        <h6 className='RobotoCondensed text-center'>Backtesting</h6>
+                        <img 
+                            src={Logo} 
+                            alt="Logo" 
+                            className="w-1/3 md:w-1/3 lg:w-1/3 mx-auto mb-6 shadow-2xl shadow-violet-900"
+                        />
+                        <p className='RobotoCondensed'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                    <div className='flex flex-col mx-10'>
+                        <h5 className='RobotoCondensed text-center'>Pat Nguyen</h5>
+                        <h6 className='RobotoCondensed text-center'>Backtesting</h6>
+                        <img 
+                            src={Logo} 
+                            alt="Logo" 
+                            className="w-1/3 md:w-1/3 lg:w-1/3 mx-auto mb-6 shadow-2xl shadow-violet-900"
+                        />
+                        <p className='RobotoCondensed'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                    <div className='flex flex-col mx-10'>
+                        <h5 className='RobotoCondensed text-center'>Aleks Lyubinov</h5>
                         <h6 className='RobotoCondensed text-center'>Backtesting</h6>
                         <img 
                             src={Logo} 
