@@ -15,24 +15,19 @@ function App() {
   function Rendering_function(Site_Name){
     switch (Site_Name) {
       case 'Landing_Page':
-        console.log('Landing_Page');
-        return Landing_Page
+          return Landing_Page
         break;
-      case 'About_Page':
-        console.log('About_Page');
-        return About_Us_Page
+      case 'About Us':
+          return About_Us_Page
         break;
-      case 'Methodology_Vision_Page': 
-        console.log('Methology_Vision_Page'); 
-        return Methodology_Vision_Page
+      case 'Methodology & Vision': 
+          return Methodology_Vision_Page
         break;
-      case 'User_Login_Page':
-        console.log('User_Login_Page');
-        return User_Login_Page
+      case 'User Login':
+          return User_Login_Page
         break;
-      case 'Blog_Page':
-        console.log('Terminal_Demo_Page');
-        return Blog_Page
+      case 'Blog':
+          return Blog_Page
         break;
       default:
         return Landing_Page

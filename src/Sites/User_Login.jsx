@@ -1,25 +1,17 @@
 import React from 'react';
-import { Selected_Site_Context } from '../context_test';
+
 import Logo from '../assets/logo.png'
+import Header from '../components/header';
+import Footer from '../components/footer'
 
 const User_Login_Page = () => {
-  const {Selected_Site, set_Selected_Site} = React.useContext(Selected_Site_Context)
 
   return (
     <div className='h-screen flex flex-col items-center justify-start px-10'>
-        {/* Header */}
-        <div className="bg-white pt-1">
-            <img 
-                src={Logo} 
-                alt="Logo" 
-                className="w-1/4 md:w-1/4 lg:w-1/6 mx-auto mb-6 shadow-2xl shadow-violet-900"
-                onClick={() => set_Selected_Site("Landing Page")}
-            />  
-            <h1 className='RobotoCondensed text-center text-indigo-700 font-extrabold tracking-widest'>User LogIn</h1>
-        </div>
+        <Header></Header>
         {/* Content */}
-        <div className='bg-violet-200'>
-          <div className='flex flex-row m-3.5'>
+        <div className='bg-violet-200 flex-wrap w-full items-center'>
+          <div className='flex flex-row w-2/3 m-10 '>
             <h5 className='RobotoCondensed mx-10'>User Name</h5>
             <form>
               <input type="text" placeholder="Enter your username here" className='rounded-lg p-2'/>
@@ -30,7 +22,8 @@ const User_Login_Page = () => {
             </form>
             <button className='mx-10 bg-indigo-600 px-10 rounded-lg'>LogIn</button>
           </div>
-        </div>    
+        </div>  
+        <Footer></Footer>  
     </div>
   );
 }
