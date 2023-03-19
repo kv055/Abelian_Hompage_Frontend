@@ -4,7 +4,7 @@ import { Selected_Site_Context } from '../context_test'
 const navbar = () => {
     const {Selected_Site, set_Selected_Site} = React.useContext(Selected_Site_Context)
     return (
-        <nav className="flex-row flex-wrap my-20">
+        <nav className="flex flex-col text-center md:flex-row sm:text-right my-20">
             <a href="#" 
             className="RobotoCondensed
                 hover:underline 
