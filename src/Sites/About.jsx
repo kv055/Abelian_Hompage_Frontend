@@ -26,6 +26,7 @@ const About_Us_Page = () => {
                             <h5 className='RobotoCondensed text-center  text-indigo-700 font-extrabold px-10 tracking-widest'>William Godfrey</h5>
                             <h6 className='RobotoCondensed text-center px-10'>CEO and Financial Engineering</h6>
                             <h6 className='RobotoCondensed text-center px-10'>william.godfrey@abelian.capital</h6>
+                            <a href = "mailto: william.godfrey@abelian.capital" className='RobotoCondensed text-center'>Send Email</a>
                         </div>
                         <div className='flex flex-col xl:flex-row'>
                             <img 
@@ -45,6 +46,7 @@ const About_Us_Page = () => {
                             <h5 className='RobotoCondensed text-center  text-indigo-700 font-extrabold px-10 tracking-widest'>Kilian Voss</h5>
                             <h6 className='RobotoCondensed text-center px-10'>Strategy Developement</h6>
                             <h6 className='RobotoCondensed text-center px-10'>kilian.voss@abelian.capital</h6>
+                            <a href = "mailto: kilian.voss@abelian.capital" className='RobotoCondensed text-center'>Send Email</a>
                         </div>
                         
                         <div className='flex flex-col xl:flex-row-reverse'>
@@ -66,6 +68,7 @@ const About_Us_Page = () => {
                             <h5 className='RobotoCondensed text-center  text-indigo-700 font-extrabold px-10 tracking-widest'>Lachlan Steele</h5>
                             <h6 className='RobotoCondensed text-center px-10'>CTO and Infrastructure Developement</h6>
                             <h6 className='RobotoCondensed text-center px-10'>lachlan.steele@abelian.capital</h6>
+                            <a href = "mailto: lachlan.steele@abelian.capital" className='RobotoCondensed text-center'>Send Email</a>
                         </div>
                         <div className='flex flex-col xl:flex-row'>
                              <img 
@@ -86,6 +89,7 @@ const About_Us_Page = () => {
                             <h5 className='RobotoCondensed text-center  text-indigo-700 font-extrabold px-10 tracking-widest'>Aleks Lyubinov</h5>
                             <h6 className='RobotoCondensed text-center px-10'>Machine Learning Development</h6>
                             <h6 className='RobotoCondensed text-center px-10'>aleks.lyubinov@abelian.capital</h6>
+                            <a href = "mailto: aleks.lyubinov@abelian.capital" className='RobotoCondensed text-center'>Send Email</a>
                         </div>
                         
                         <div className='flex flex-col xl:flex-row-reverse'>
@@ -108,6 +112,7 @@ const About_Us_Page = () => {
                             <h5 className='RobotoCondensed text-center  text-indigo-700 font-extrabold px-10 tracking-widest'>Pat Nguyen</h5>
                             <h6 className='RobotoCondensed text-center px-10'>CFO and Investor Relations</h6>
                             <h6 className='RobotoCondensed text-center px-10'>pat.nguyen@abelian.capital</h6>
+                            <a href = "mailto: pat.nguyen@abelian.capital" className='RobotoCondensed text-center'>Send Email</a>
                         </div>
 
                         <div className='flex flex-col xl:flex-row'>
