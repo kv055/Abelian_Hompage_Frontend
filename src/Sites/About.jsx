@@ -22,8 +22,11 @@ const About_Us_Page = () => {
                 <div className='flex items-center justify-center flex-wrap'>
                     
                     <div className='flex-col m-5 md:m-10 md:w-2/3'>
-                        <h5 className='RobotoCondensed text-center  text-indigo-700 font-extrabold tracking-widest'>William Godfrey</h5>
-                        <h6 className='RobotoCondensed text-center'>CEO and Financial Engineering</h6>
+                        <div className='flex flex-col xl:flex-row items-center justify-center'>
+                            <h5 className='RobotoCondensed text-center  text-indigo-700 font-extrabold px-10 tracking-widest'>William Godfrey</h5>
+                            <h6 className='RobotoCondensed text-center px-10'>CEO and Financial Engineering</h6>
+                            <h6 className='RobotoCondensed text-center px-10'>william.godfrey@abelian.capital</h6>
+                        </div>
                         <div className='flex flex-col xl:flex-row'>
                             <img 
                                 src={Will_Photo} 
@@ -38,8 +41,12 @@ const About_Us_Page = () => {
                     </div>
 
                     <div className='flex-col m-5 md:m-10 md:w-2/3'>
-                        <h5 className='RobotoCondensed text-center  text-indigo-700 font-extrabold tracking-widest'>Kilian Voss</h5>
-                        <h6 className='RobotoCondensed text-center'>Strategy Developement</h6>
+                        <div className='flex flex-col xl:flex-row items-center justify-center'>
+                            <h5 className='RobotoCondensed text-center  text-indigo-700 font-extrabold px-10 tracking-widest'>Kilian Voss</h5>
+                            <h6 className='RobotoCondensed text-center px-10'>Strategy Developement</h6>
+                            <h6 className='RobotoCondensed text-center px-10'>kilian.voss@abelian.capital</h6>
+                        </div>
+                        
                         <div className='flex flex-col xl:flex-row-reverse'>
                             <img 
                                 src={Kilian_Photo} 
@@ -55,8 +62,11 @@ const About_Us_Page = () => {
                     </div>
 
                     <div className='flex-col m-5 md:m-10 md:w-2/3'>
-                        <h5 className='RobotoCondensed text-center  text-indigo-700 font-extrabold tracking-widest'>Lachlan Steele</h5>
-                        <h6 className='RobotoCondensed text-center'>CTO and Infrastructure Developement</h6>
+                        <div className='flex flex-col xl:flex-row items-center justify-center'>
+                            <h5 className='RobotoCondensed text-center  text-indigo-700 font-extrabold px-10 tracking-widest'>Lachlan Steele</h5>
+                            <h6 className='RobotoCondensed text-center px-10'>CTO and Infrastructure Developement</h6>
+                            <h6 className='RobotoCondensed text-center px-10'>lachlan.steele@abelian.capital</h6>
+                        </div>
                         <div className='flex flex-col xl:flex-row'>
                              <img 
                                 src={Lachlan_Photo} 
@@ -72,8 +82,12 @@ const About_Us_Page = () => {
                     </div>
 
                     <div className='flex-col m-5 md:m-10 md:w-2/3'>
-                        <h5 className='RobotoCondensed text-center  text-indigo-700 font-extrabold tracking-widest'>Aleks Lyubinov</h5>
-                        <h6 className='RobotoCondensed text-center'>Machine Learning Development</h6>
+                        <div className='flex flex-col xl:flex-row items-center justify-center'>
+                            <h5 className='RobotoCondensed text-center  text-indigo-700 font-extrabold px-10 tracking-widest'>Aleks Lyubinov</h5>
+                            <h6 className='RobotoCondensed text-center px-10'>Machine Learning Development</h6>
+                            <h6 className='RobotoCondensed text-center px-10'>aleks.lyubinov@abelian.capital</h6>
+                        </div>
+                        
                         <div className='flex flex-col xl:flex-row-reverse'>
                             <img 
                                 src={Aleks_Photo} 
@@ -90,8 +104,12 @@ const About_Us_Page = () => {
                     </div>
 
                     <div className='flex-col m-5 md:m-10 md:w-2/3'>
-                        <h5 className='RobotoCondensed text-center  text-indigo-700 font-extrabold tracking-widest'>Pat Nguyen</h5>
-                        <h6 className='RobotoCondensed text-center'>CFO and Investor Relations</h6>
+                        <div className='flex flex-col xl:flex-row items-center justify-center'>
+                            <h5 className='RobotoCondensed text-center  text-indigo-700 font-extrabold px-10 tracking-widest'>Pat Nguyen</h5>
+                            <h6 className='RobotoCondensed text-center px-10'>CFO and Investor Relations</h6>
+                            <h6 className='RobotoCondensed text-center px-10'>pat.nguyen@abelian.capital</h6>
+                        </div>
+
                         <div className='flex flex-col xl:flex-row'>
                              <img 
                                 src={Pat_Photo} 
