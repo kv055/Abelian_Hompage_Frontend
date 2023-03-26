@@ -8,7 +8,7 @@ const header = () => {
     const {Selected_Site, set_Selected_Site} = React.useContext(Selected_Site_Context)
   return (
     <div className="bg-white p-5 flex flex-col sm:flex-row">
-        <div className='sm:w-2/6 md:w-1/6 text-left'>
+        <div className='sm:w-2/6 md:w-1/6 xl:max-w-lg text-left'>
             <img 
                 src={Logo}
                 alt="Logo" 
@@ -29,7 +29,7 @@ const header = () => {
                     className="sm:hidden md:w-1/12 lg:w-1/12 mr-20 cursor-pointer"
                     onClick={() => set_Selected_Site("Landing Page")}
                 /> */}
-                <h1 className='RobotoCondensed text-indigo-700 font-semibold tracking-widest text-6xl pt-20 sm:pt-5'>{Selected_Site}</h1>
+                <h1 className='RobotoCondensed text-indigo-700 font-extrabold md:font-semibold xl:font-bold tracking-widest sm:text-xl md:text-3xl xl:text-6xl pt-20 sm:pt-5'>{Selected_Site}</h1>
             </div>
             <Navbar></Navbar>
         </div>

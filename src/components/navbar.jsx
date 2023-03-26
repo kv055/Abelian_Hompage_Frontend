@@ -4,12 +4,13 @@ import { Selected_Site_Context } from '../context_test'
 const navbar = () => {
     const {Selected_Site, set_Selected_Site} = React.useContext(Selected_Site_Context)
     return (
-        <nav className="flex flex-col text-center md:flex-row sm:text-right my-20">
+        <nav className="flex flex-col text-center md:flex-row sm:text-right sm:my-5 md:my-20">
             <a href="#" 
             className="RobotoCondensed
                 hover:underline 
                 mr-6 ml-6 
-                text-lg 
+                sm:text-base
+                xl:text-2xl 
                 cursor-pointer 
                 text-indigo-700
                 font-medium 
@@ -23,7 +24,8 @@ const navbar = () => {
             className="RobotoCondensed
                 hover:underline 
                 mr-6 ml-6 
-                text-lg 
+                sm:text-base
+                xl:text-2xl 
                 cursor-pointer 
                 text-indigo-700
                 font-medium 
@@ -37,7 +39,8 @@ const navbar = () => {
             className="RobotoCondensed
                 hover:underline 
                 mr-6 ml-6 
-                text-lg 
+                sm:text-base
+                xl:text-2xl 
                 cursor-pointer 
                 text-indigo-700
                 font-medium 
@@ -51,7 +54,8 @@ const navbar = () => {
             className="RobotoCondensed
                 hover:underline 
                 mr-6 ml-6 
-                text-lg 
+                sm:text-sm
+                xl:text-2xl 
                 cursor-pointer 
                 text-indigo-700
                 font-medium 
