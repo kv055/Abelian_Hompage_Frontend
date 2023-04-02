@@ -54,7 +54,7 @@ const navbar = () => {
             className="RobotoCondensed
                 hover:underline 
                 mr-6 ml-6 
-                sm:text-sm
+                sm:text-base
                 xl:text-2xl 
                 cursor-pointer 
                 text-indigo-700
