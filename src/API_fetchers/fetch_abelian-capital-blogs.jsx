@@ -2,14 +2,14 @@ import { useState, useEffect } from 'react';
 
 function BlogList() {
   const [blogs, setBlogs] = useState([]);
-
+  
   const TOKEN = '39c12c72dfc2fecf7db21c166c726daff4d05839261897234fdf7df5182f9cfbbb33b1072f5ad955f38ab91123b4221d9671a44777121bd2ccc69027ca108edabf8156953a1596a99326a4924dacd4440e9423f3123aff8cc718c97d09be7ec176282b56bcb69b4872ab0b8b74f62dee3844384531eb99d7385a7086ac93c1ed';
-  const API_URL = 'http://localhost:1337';
+
   
   useEffect(() => {
     async function fetchBlogs() {
       try {
-        const response = await fetch(`${API_URL}/api/abelian-capital-blogs`, {
+        const response = await fetch(`https://jb3gfmz2rd.us-east-1.awsapprunner.com/api/abelian-capital-blogs`, {
           headers: {
             Authorization: `Bearer ${TOKEN}`,
           },
