@@ -32,8 +32,6 @@ const User_Login_Page = () => {
       localStorage.setItem('jwt', data.jwt);
       // Set success message
       setMessage('Login successful!');
-      // // Redirect user to Google
-      // window.open('https://www.google.com', '_blank');
 
       setLoggedIn(true);
     } catch (error) {
@@ -56,8 +54,8 @@ const User_Login_Page = () => {
         {/* Embed Google here */}
         {loggedIn && (
           <iframe
-            title='Google'
-            src='https://abelianterminaldemo.s3.amazonaws.com/build/index.html'
+            title='Abelian Terminal Demo'
+            src='https://abelianterminaldemo.s3.amazonaws.com/index.html'
             width='100%'
             height='1000px'
           ></iframe>
