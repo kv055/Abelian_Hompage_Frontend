@@ -10,11 +10,11 @@ const Methodology_Vision_Page = () => {
         <Header></Header>
         {/* Content */}
         <div className='bg-violet-200'>
-            <h3 className='RobotoCondensed text-center font-semibold tracking-widest text-2xl m-5'>Our Process</h3>
+            {/* <h3 className='RobotoCondensed text-center font-semibold tracking-widest text-2xl m-5'>Our Process</h3> */}
             <div className='flex items-center justify-center flex-wrap'>
-                <div className='flex-col w-2/3 m-10'>
-                    <h5 className='RobotoCondensed text-start mb-10 text-indigo-700 font-extrabold tracking-widest'>Fundamental Analysis</h5>
-                    <p className='RobotoCondensed'>
+                <div className='flex-col w-full md:w-2/3 m-10'>
+                    <h5 className='RobotoCondensed text-start mb-10 text-indigo-700 font-extrabold tracking-widest md:text-3xl'>Fundamental Analysis</h5>
+                    <p className='RobotoCondensed bg-indigo-50 p-10 leading-8'>
                         At our asset management company, we pride ourselves on our rigorous and thorough approach to fundamental analysis. We believe that to make informed investment decisions, it is essential to have a deep understanding of the underlying fundamentals of the companies and industries in which we invest.
 
                         Our fundamental analysis process begins by conducting extensive research on the macroeconomic environment, market trends, and industry dynamics. We then focus on analyzing the financial statements of the companies in our investment universe, including income statements, balance sheets, and cash flow statements. We also examine key financial ratios such as price-to-earnings, price-to-sales, and return on equity to gain a holistic understanding of the company's financial health and performance.
@@ -26,9 +26,9 @@ const Methodology_Vision_Page = () => {
                         Overall, our fundamental analysis process is characterized by a disciplined and rigorous approach to research and analysis, a focus on long-term value creation, and a commitment to providing our clients with transparent and unbiased investment advice.    
                     </p>
                 </div>
-                <div className='flex-col w-2/3 m-10'>
-                    <h5 className='RobotoCondensed text-start mb-10 text-indigo-700 font-extrabold tracking-widest'>Financial Modeleling</h5>
-                    <p className='RobotoCondensed'>
+                <div className='flex-col w-full md:w-2/3 m-10'>
+                    <h5 className='RobotoCondensed text-start mb-10 text-indigo-700 font-extrabold tracking-widest md:text-3xl'>Financial Modeleling</h5>
+                    <p className='RobotoCondensed bg-indigo-50 p-10 leading-8'>
                         Our asset management company has a strong focus on financial modeling, which we believe is essential for making informed investment decisions. We use a range of quantitative techniques and models to analyze financial data and generate insights that guide our investment decisions.
 
                         Our financial modeling process begins with extensive research on the macroeconomic environment and industry trends, which we use to develop our assumptions and inputs. We then use our proprietary models and tools to build detailed financial projections for the companies in our investment universe.
@@ -42,9 +42,9 @@ const Methodology_Vision_Page = () => {
                         Overall, we believe that our focus on financial modeling enables us to make well-informed investment decisions and deliver strong returns for our clients.    
                     </p>
                 </div>
-                <div className='flex-col w-2/3 m-10'>
-                    <h5 className='RobotoCondensed text-start mb-10 text-indigo-700 font-extrabold tracking-widest'>Strategy Developement with Backtesting</h5>
-                    <p className='RobotoCondensed'>
+                <div className='flex-col w-full md:w-2/3 m-10'>
+                    <h5 className='RobotoCondensed text-start mb-10 text-indigo-700 font-extrabold tracking-widest md:text-3xl'>Strategy Developement with Backtesting</h5>
+                    <p className='RobotoCondensed bg-indigo-50 p-10 leading-8'>
                         At our asset management company, we are committed to developing robust investment strategies that are backed by rigorous analysis and testing. Our approach to strategy development involves four key stages: research, design, backtesting, and refinement.
 
                         The first stage of our strategy development process is research, which involves identifying potential investment themes and opportunities based on our macroeconomic and industry analysis. We use a range of data sources and analytical tools to gather insights and generate investment ideas.
@@ -58,9 +58,9 @@ const Methodology_Vision_Page = () => {
                         Our focus on strategy development with backtesting enables us to deliver investment solutions that are grounded in sound analysis and testing. We believe that this approach enables us to achieve superior risk-adjusted returns for our clients over the long term.
                     </p>
                 </div>
-                <div className='flex-col w-2/3 m-10'>
-                    <h5 className='RobotoCondensed text-start mb-10 text-indigo-700 font-extrabold tracking-widest'>Paper Trading and Evaluation</h5>
-                    <p className='RobotoCondensed'>
+                <div className='flex-col w-full md:w-2/3 m-10'>
+                    <h5 className='RobotoCondensed text-start mb-10 text-indigo-700 font-extrabold tracking-widest md:text-3xl'>Paper Trading and Evaluation</h5>
+                    <p className='RobotoCondensed bg-indigo-50 p-10 leading-8'>
                         At our asset management company, we believe that paper trading and evaluation is a crucial component of our investment process. Paper trading involves simulating the execution of investment strategies in a risk-free environment, using historical market data.
 
                         Our paper trading process begins with the selection of an investment strategy that has been developed through our rigorous research, design, and backtesting process. We then simulate the execution of this strategy using historical market data, adjusting for transaction costs, slippage, and other factors that may impact performance.
@@ -77,7 +77,7 @@ const Methodology_Vision_Page = () => {
             </div>
             <h3 className='RobotoCondensed text-center font-semibold tracking-widest text-2xl m-5'>Roadmap</h3>
                 <div className='flex items-center justify-center text-center flex-wrap'>        
-                    <div className='flex-col w-2/3 m-10'>
+                    <div className='flex-col w-full md:w-2/3 m-10'>
                     <ul>
                         <li className='RobotoCondensed'> <strong>(Q2 2023)</strong>Conduct market research and competitor analysis</li>
                         <li className='RobotoCondensed'> <strong>(Q3 2023)</strong>Develop and launch a minimum viable Abelian Trading Terminal (MVP)</li>

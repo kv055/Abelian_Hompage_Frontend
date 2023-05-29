@@ -26,17 +26,17 @@ function BlogList() {
   console.log(blogs);
 
   const blogItems = blogs.map((blog) => (
-    <div key={blog.id} className='flex flex-col items-center w-1/3 m-10'>
+    <div key={blog.id} className='w-full md:w-1/2 mb-10'>
       <h5 className='RobotoCondensed text-center text-indigo-700 font-extrabold tracking-widest text-2xl'>{blog.attributes.Title}</h5>
-      <h6 className='RobotoCondensed mb-10'>{blog.attributes.Date_Published}</h6>
-      <p className='RobotoCondensed text-center'>
+      <h6 className='RobotoCondensed text-center mb-10'>{blog.attributes.Date_Published}</h6>
+      <p className='RobotoCondensed m-10 text-center bg-indigo-50 leading-8 p-10'>
         {blog.attributes.Content}  
       </p>
     </div>
   ));
 
   return (
-    <div className='w-full flex flex-col xl:flex-row xl:flex-wrap items-center'>
+    <div className='flex flex-row flex-wrap m-5 p-10'>
       {blogItems}
     </div>
   );

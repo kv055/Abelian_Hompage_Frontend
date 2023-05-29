@@ -12,7 +12,7 @@ const header = () => {
             <img 
                 src={Logo}
                 alt="Logo" 
-                className="w-1/8 shadow-2xl shadow-violet-900"
+                className="w-1/8 shadow-2xl shadow-violet-900 cursor-pointer "
                 onClick={() => set_Selected_Site("Landing Page")}
             />
         </div>

@@ -44,9 +44,9 @@ const User_Login_Page = () => {
       <Header />
       {/* Content */}
       <div className='bg-violet-200 flex-wrap w-full items-center'>
-        <h3 className='RobotoCondensed text-center font-semibold tracking-widest text-2xl m-5'>
+        {/* <h3 className='RobotoCondensed text-center font-semibold tracking-widest text-2xl m-5'>
           Login for a Demo version of the AC Terminal
-        </h3>
+        </h3> */}
         {loggedIn ? null : <LoginForm handleLogin={handleLogin} />}
 
         {message && <p className='text-center'>{message}</p>}
